@@ -25,5 +25,27 @@ namespace praktika12
             InitializeComponent();
             frame.Navigate(new Pages.Parents());
         }
+
+        public enum pages
+        {
+            statement,
+            education,
+            status,
+            speciality,
+            passport,
+            contacts,
+            parents
+        }
+
+        public void Openpage(pages page)
+        {
+            if (page == pages.statement) frame.Navigate(new Pages.Statement());
+            if (page == pages.education) frame.Navigate(new Pages.Education());
+            if (page == pages.status) frame.Navigate(new Pages.Status());
+            if (page == pages.speciality) frame.Navigate(new Pages.Speciality());
+            if (page == pages.passport) frame.Navigate(new Pages.Passport());
+            if (page == pages.contacts) frame.Navigate(new Pages.Contacts());
+            if (page == pages.parents) frame.Navigate(new Pages.Parents());
+        }
     }
 }

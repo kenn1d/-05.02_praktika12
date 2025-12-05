@@ -60,7 +60,7 @@
                 <TextBox Height="24" Margin="10,810,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Grid.Column="1"/>
                 <Label Content="(при наличии)" Grid.Column="1" HorizontalAlignment="Left" Margin="20,784,0,0" VerticalAlignment="Top" Background="{x:Null}" FontSize="10" Foreground="Red" Height="23" Width="316"/>
                 <CheckBox Content="Настоящим подтверждаю, что персональные данные на третьих лиц переданы с их разрешения" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="10,836,0,0" VerticalAlignment="Top" Height="20" Width="763"/>
-                <Button Content="Продолжить" HorizontalAlignment="Right" Margin="0,0,10,5" VerticalAlignment="Bottom" Width="150" Height="25" Grid.Column="1"/>
+                <Button Content="Продолжить" Click="next" HorizontalAlignment="Right" Margin="0,0,10,5" VerticalAlignment="Bottom" Width="150" Height="25" Grid.Column="1"/>
             </Grid>
         </ScrollViewer>
     </Grid>

@@ -24,5 +24,11 @@ namespace praktika12.Pages
         {
             InitializeComponent();
         }
+
+        private void next(object sender, RoutedEventArgs e)
+        {
+            MainWindow mainwindow = (MainWindow)Application.Current.MainWindow;
+            mainwindow.Openpage(MainWindow.pages.status);
+        }
     }
 }

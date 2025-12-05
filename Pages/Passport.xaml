@@ -54,7 +54,7 @@
                 <Label Content="(Формат документов должен быть PNG, JPEG или PDF, а максимальный размер каждого файла 5 МБ)" HorizontalAlignment="Left" Margin="20,459,0,0" VerticalAlignment="Top" Background="{x:Null}" FontSize="10" Foreground="Red" Height="23" Width="487" Grid.ColumnSpan="2"/>
                 <TextBox Height="24" Margin="20,484,120,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
                 <Button Content="Выбрать ..." HorizontalAlignment="Right" Margin="0,484,10,0" VerticalAlignment="Top" Width="100" Height="25" Grid.Column="1"/>
-                <Button Content="Продолжить" HorizontalAlignment="Right" Margin="0,0,10,5" VerticalAlignment="Bottom" Width="150" Height="25" Grid.Column="1"/>
+                <Button Content="Продолжить" Click="next" HorizontalAlignment="Right" Margin="0,0,10,5" VerticalAlignment="Bottom" Width="150" Height="25" Grid.Column="1"/>
             </Grid>
         </ScrollViewer>
     </Grid>

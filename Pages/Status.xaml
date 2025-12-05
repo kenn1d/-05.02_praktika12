@@ -28,7 +28,7 @@
             <Label Content="Окончил (Наименование образовательной организации, город)" HorizontalAlignment="Left" Margin="10,237,0,0" VerticalAlignment="Top"/>
             <TextBox Height="24" Margin="12,263,120,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
             <Button Content="Выбрать ..." HorizontalAlignment="Right" Margin="10,263,10,0" VerticalAlignment="Top" Width="100" Height="25"/>
-            <Button Content="Продолжить" HorizontalAlignment="Right" Margin="0,0,10,5" VerticalAlignment="Bottom" Width="150" Height="25"/>
+            <Button Content="Продолжить" Click="next" HorizontalAlignment="Right" Margin="0,0,10,5" VerticalAlignment="Bottom" Width="150" Height="25"/>
         </Grid>
     </Grid>
 </Page>

@@ -27,7 +27,7 @@
                 <TextBox Width="375" Height="20" Margin="6,67,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Grid.Column="1"/>
                 <Label Content="Электронный адрес:" HorizontalAlignment="Left" Margin="10,87,0,0" VerticalAlignment="Top" Height="26" Width="128"/>
                 <TextBox Height="24" Margin="10,113,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
-                <Button Content="Продолжить" HorizontalAlignment="Right" Margin="0,0,10,5" VerticalAlignment="Bottom" Width="150" Height="25" Grid.Column="1"/>
+                <Button Content="Продолжить" Click="next" HorizontalAlignment="Right" Margin="0,0,10,5" VerticalAlignment="Bottom" Width="150" Height="25" Grid.Column="1"/>
             </Grid>
         </ScrollViewer>
     </Grid>
