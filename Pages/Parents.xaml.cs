@@ -13,17 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace praktika12
+namespace praktika12.Pages
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для Parents.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Parents : Page
     {
-        public MainWindow()
+        public Parents()
         {
             InitializeComponent();
-            frame.Navigate(new Pages.Parents());
         }
     }
 }
