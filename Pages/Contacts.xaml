@@ -23,8 +23,8 @@
                 <Label Content="Контакты" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontWeight="Bold" Height="26" Width="165"/>
                 <Label Content="Домашний номер:" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top" Height="26" Width="200"/>
                 <Label Content="Мобильный номер:" HorizontalAlignment="Left" Margin="6,41,0,0" VerticalAlignment="Top" Height="26" Width="198" Grid.Column="1"/>
-                <TextBox Width="375" Height="20" Margin="10,67,6,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
-                <TextBox Width="375" Height="20" Margin="6,67,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Grid.Column="1"/>
+                <TextBox Height="20" Margin="10,67,6,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Grid.Column="0"/>
+                <TextBox Height="20" Margin="2,67,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Grid.Column="1"/>
                 <Label Content="Электронный адрес:" HorizontalAlignment="Left" Margin="10,87,0,0" VerticalAlignment="Top" Height="26" Width="128"/>
                 <TextBox Height="24" Margin="10,113,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
                 <Button Content="Продолжить" Click="next" HorizontalAlignment="Right" Margin="0,0,10,5" VerticalAlignment="Bottom" Width="150" Height="25" Grid.Column="1"/>
